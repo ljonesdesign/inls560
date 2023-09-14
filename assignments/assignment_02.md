@@ -30,7 +30,7 @@ This may seem like a simple exercise if you just copy, paste, and change.
 
 But try to come up with four things in a list and code it from memory. Where do the commas go? Did you remember the proper position of the quotes? Come back later and try it again. What was the keyword for a loop? Was it a ```for``` loop or a ```while``` loop? Did you forget the ```in``` keyword? How did we get that ```upper()``` method in there? 
 
-There is actually a lot going on in this little block of code. And you will use this a lot as you continue to code so practice it over and over so you can do it without referencing the sample. I won't require this for everything, but this it good short bit of code to get into your muscle memory as it covers ```lists```, the ```for``` loop and a method, ```upper()```, in one go. 
+There is actually a lot going on in this little block of code. And you will use this a lot as you continue to code, so practice it over and over so you can do it without referencing the sample. I won't require this for everything, but this it good short bit of code to get into your muscle memory as it covers ```lists```, the ```for``` loop and a method, ```upper()```, in one go. 
 
 The goal for this week activity is *quality* over *quantity*. Or *depth* as opposed to *breadth*. 
 
