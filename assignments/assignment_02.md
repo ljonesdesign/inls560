@@ -34,7 +34,8 @@ There is actually a lot going on in this little block of code. And you will use 
 
 The goal for this week activity is *quality* over *quantity*. Or *depth* as opposed to *breadth*. 
 
-The the second part part of assignment 02, I would like for you to finish the code that we started here:
+The the second part part of assignment 02, I would like for you to finish, and edit, the code that we started. Try to enter age 40 and see what you get....nothing.
+I mentioned that you did not always need to have a final ```else``` in a program. However, in this case, you do.  You need a "catch-all" ```else``` in this example. Look at the code samples for help.
 
 ```python
 # Amusement Park Admission
@@ -51,9 +52,7 @@ elif age < 5:
     print (f'you get free admission! No Charge!')
 
 ```
-I mentioned that you did not always need to have a final ```else``` in a program. However, in this
-case, you do. Try to enter age 40 and see what you get....nothing. You need a "catch-all" ```else``` in this example. Look at the code samples for help.
 
-And for the final task, I would like for you to adjust the code so that the senior discount is a lower price for the Centenarian. Don't do the calculation in the print function as we did in class. Instead put in ```{senior_price}``` and ```{centenarian_price}``` in each print function. Under ```price = 10``` variable, change the ```senior_discount = .8``` variable to ```senior_price = price * .8``` and then do the same with ```centenarian_price``` but make the discount deeper (better price.)
+And finally, adjust the code so that the senior discount is a lower price for the Centenarian. Don't do the calculation in the print function as we did in class. Instead put in ```{senior_price}``` and ```{centenarian_price}``` in each print function. Below the ```price = 10``` variable, change the ```senior_discount = .8``` variable to ```senior_price = price * .8``` and then do the same with ```centenarian_price``` but make the discount deeper (better price.)
 
 When done, just zip up your ```in_class``` folder and name it ```lastname_firstname_assignment_02``` and upload it to Canvas.
