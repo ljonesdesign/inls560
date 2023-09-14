@@ -26,7 +26,7 @@ for item in items:
 ```
 Except you need to change  any occurance of ```item```, ```items``` and ```item1-4``` to something meaningful to you.
 
-This may seem like a simple excercise if you just copy, paste, and change.
+This may seem like a simple exercise if you just copy, paste, and change.
 
 But try to come up with five things in a list and set the method and for/in loop through by memory. You might find that 
 to a bit more challenging. This is what you will need to do on the exam, so pratice it over and over so you can do it without 
