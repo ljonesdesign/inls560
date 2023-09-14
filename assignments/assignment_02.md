@@ -24,12 +24,13 @@ for item in items:
     print(item.upper())
 
 ```
-Except you need to change item, items and item1-4 to something meaningful to you.
+Except you need to change  any occurance of ```item```, ```items``` and ```item1-4``` to something meaningful to you.
 
 This may seem like a simple excercise if you just copy, paste, and change.
 
 But try to come up with five things in a list and set the method and for/in loop through by memory. You might find that 
-to a bit more challenging. This is what you will need to do on the exam, so pratice it so you can do it.
+to a bit more challenging. This is what you will need to do on the exam, so pratice it over and over so you can do it without 
+referencing. I won't require this for everything, but this is great sample to get into your muscle memory, I think.
 
 Also, as part of assignment 02 I would like for you to finish the code that we started here:
 
