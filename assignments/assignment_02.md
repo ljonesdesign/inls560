@@ -52,7 +52,3 @@ elif age < 5:
     print (f'you get free admission! No Charge!')
 
 ```
-
-And finally, adjust the code so that the senior discount is a lower price for the Centenarian. Don't do the calculation in the print function as we did in class. Instead put in ```{senior_price}``` and ```{centenarian_price}``` in each print function. Below the ```price = 10``` variable, change the ```senior_discount = .8``` variable to ```senior_price = price * .8``` and then do the same with ```centenarian_price``` but make the discount deeper (better price.)
-
-When done, just zip up your ```in_class``` folder and name it ```lastname_firstname_assignment_02``` and upload it to Canvas.
