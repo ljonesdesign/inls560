@@ -107,7 +107,7 @@ print(f'''
 ```
 If you ran this, then you would see your Constants printed out with extra space.
 
-Step 3: Enter any addition text description as you like with any spacing you like.
+Step 3: Enter any additional text descriptions, as you like, with any spacing you like.
 ```python
 else:
 print(f'''
