@@ -50,7 +50,7 @@ MIN_YEARS_TOP_AWARD = 1
 
 # Ted's provided data:
 years_sales = 5
-years_top_award = 7
+years_top_award = 7 # User error, admin error, programmer error?
 
 if years_sales > MIN_YEARS_SALES and years_top_award > MIN_YEARS_TOP_AWARD:
     print('Ted you are eligible the Sales Manager Position.')
@@ -71,7 +71,7 @@ MIN_YEARS_TOP_AWARD = 1
 
 # User's provided data:
 years_sales = int(input('Enter your years of sales experience: '))
-years_top_award = int(input('Enter how many years you have been salesperson of the year: '))
+years_top_award = int(input('Enter how many years you have been salesperson of the year: ')) # any error would be user error in this case.
 
 if years_sales > MIN_YEARS_SALES and years_top_award > MIN_YEARS_TOP_AWARD:
     print('You are eligible the Sales Manager Position.')
