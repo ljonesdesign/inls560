@@ -29,7 +29,7 @@ MIN_YEARS_SELLING CARS = 2
 MIN_SALESMAN_OF_THE_YEAR = 1
 
 years_selling_exp = 5
-salesman_of the year = 7
+salesman_of_the_year = 7 # User error maybe? (7 < 5)
 ```
 
 ```python
