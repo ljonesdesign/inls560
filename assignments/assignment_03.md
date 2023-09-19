@@ -78,7 +78,7 @@ if years_sales > MIN_YEARS_SALES and years_top_award > MIN_YEARS_TOP_AWARD:
 else:
     print('You are not eligible the Sales Manager Position.')
 ```
-The final step in this project is for you to let your user know why they did not meet the requirements by revealing the constants. To do this you need only reference the constant variables. Also, since Assignment 05 really requires you to use a multi-line f-string, practice mixing your f-string with your variables. It is really a pretty elegant solution.
+The final step in this project is for you to let your user know why they did not meet the requirements by revealing the constants. To do this you need only reference the constant variables. Also, since Assignment 05 really requires you to use a multi-line f-string, practice making your f-string with your variables. It is really a pretty elegant solution.
 
 Step 1:
 
