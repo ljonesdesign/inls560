@@ -62,7 +62,7 @@ This is not very efficient, but it helps understand the programming logic. What 
 
 >*Again, we are not yet ready to learn how to save the data. We are concerned with learning how to set constants, variables, get user input, process that input, and display the processed input results.* 
 
-At this point the constants, variables, and processing are working fine. So we need to take the Ted Smith References out of the comments and make the program able to collect data from any user. We do this more efficiently by combining the `int` and the `input` on one line:
+At this point the constants, variables, and processing are working fine. So we need to take the Ted Smith References out of the comments and make the program able to collect data from any user. This also narrows any data error to the user, provided the program does not have any logical errors. We can do this more efficiently by combining the `int` and the `input` on one line:
 
 ```python
 # Requirements for Sales Manager Position
