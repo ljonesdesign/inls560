@@ -119,6 +119,6 @@ Text...
 
 ''')
 ```
-Once you have completed all of these steps, making it original, and your program is running, put your code in a folder with your lastname first and first initial and upload to Canvas.
+Once you have completed all of these steps and made it original, put your file in a folder with your lastname first, with first initial, zip it up and upload  it to Canvas.
 
 ![submission example](img/submission-example.png)
