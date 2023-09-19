@@ -4,7 +4,7 @@
 
 First, imagine yourself in the role of programmer. You are working for a client, and the client has a problem where they need to evaluate at least two conditions entered by a user. You as a programmer need to set the target CONSTANTS and then provide a way for the user to enter data that can be compared against the constants data. Then you need to evaluate that data then print out that data for the user informing them if they meet, or do not meet, the requirements and then reveal to them the requirements.
 
-The goal of this assignment is to use this pattern to create something original. In class we looked at the Loan Qualifications sample and then a job qualification sample was demonstrated. There are two more samples shown in these instructions.
+The goal of this assignment is to use this pattern to create something original. In class we looked at the Loan Qualifications sample and then a job qualification sample was demonstrated. There are two more samples shown in these instructions. Be sure not to submit one of the examples for you final assignment. Make it your own.
 
 *We have not yet covered how to collect the data and save it so the client could collect hundreds or thousands of user submissions. We will get to that later in the semester.* 
 
@@ -65,7 +65,7 @@ This is not very efficient, but it helps understand the programming logic. What 
 At this point the constants, variables, and processing are working fine. So we need to take the Ted Smith References out of the comments and make the program able to collect data from any user. We do this more efficiently by combining the `int` and the `input` on one line:
 
 ```python
-# Requiremenst for Sales Manager Position
+# Requirements for Sales Manager Position
 MIN_YEARS_SALES = 2
 MIN_YEARS_TOP_AWARD = 1
 
@@ -119,4 +119,6 @@ Text...
 
 ''')
 ```
-Once you have completed all of these steps, and your program is running, upload assingment three to Canvas.
+Once you have completed all of these steps, making it original, and your program is running, put your code in a folder with your lastname first and first initial and upload to Canvas.
+
+![submission example](img/submission-example.png)
