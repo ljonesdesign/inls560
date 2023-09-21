@@ -1,6 +1,6 @@
 # Assignment 05
 
-**concepts:** *html generation, variables, f-strings, for loop nested between strings, function, module, and import.*
+**concepts:**  *working with plain text, html generation, variables, f-strings, for loop, for loop nested between non-repeating strings, simple function definition, python module, import, and pycache.*
 
 This is a full-fledged program that will challenge you to create something that is actually quite useful: A webpage generator. This primes us for moving on to more advanced programming concepts in the working with data module.
 
@@ -129,13 +129,16 @@ from interests_module import interests_loop
 12. Finally, go to the bottom of the file and put the `interests_loop()` function call under the the `h1` tag (The function will not run in the f-string. But you can make the one f-string into 2 f-strings above and below the function. The function will run fine and add the code where it needs to go.)
 
 ```python
-''' ...
-    ...
+(f''' ... text
+      ... text
+      ... text
 <body>
     <h1>{page_topic}</h1>''') # you must terminate your f-string here.
-interests_loop()  # The function call cannot be in the f-string.
 
-# you need to start another f-string 
+ # The function call cannot be in the f-string.    
+interests_loop() 
+
+# you need to start second f-string 
 print(f'''&copy; {name} 
 </body>
 </html>
@@ -166,13 +169,12 @@ Now you should be able to run your program an generate a web page from variables
 </html>
 ```
 
-When your have the program working as intended, you will notice that you now have a pycache file in your folder:
+When your have the program working as intended, you will notice that you now have a new
+`__pycache__` folder containing the auto-generated  binary `.pyc` file.
 
-![pycache](img/pycache.png)
+That is there because Python uses that file to run your code faster and without using as much of your system resources. Here is a [pycache overview by Kana Mikami](https://ecoagi.ai/topics/Python/pycache) if you want to learn more about pycache.
 
-That is there because Python uses that file to run your code faster and without using as much of your system resources. 
-
-When finished, you should zip up your folder containing your files, including the pycache file, and submit it for Assignment 05 in Canvas.
+13. When finished, you should zip up your folder containing your files, including the  file, and submit it for Assignment 05 in Canvas.
 
 By the way, if you copy and paste the html into a file and open it in a browser, you would see the website with the copyright symbol:
 
