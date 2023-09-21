@@ -9,9 +9,9 @@ This is a full-fledged program that will challenge you to create something that 
 
 >You do not need to understand HTML to do this assignment. Any small bits of knowledge you need will be provided. This is mostly a python project.
 
-2. On the first line of interests.html enter `html` and pause. you will see some html choices presented. Choose `html5`. That will create a basic html page template for you. 
+2. On the first line of interests.html enter `html` and pause. You will see some html choices presented. Choose `html5`. That will create a basic html page template for you. 
 
-3. You should see something like this:
+3. You should then see something like this:
 ```html
 <!DOCTYPE html>
 <html lang="en">
