@@ -85,7 +85,7 @@ interests = ['swimming','hiking', 'reading', 'gaming']
 ```
 We are going to import this list into the `interests.html` file.
 
-To do that we need to make this into a function by adding this line to the top of the loop:
+9. To do that we need to make this into a function by adding this line to the top of the loop:
 
 ```python 
 def interests_loop():
@@ -109,7 +109,7 @@ However, html requires that lists be contained in an ordered list `<ol>`, or an 
     <li>item2</li>
 </ul>
 ```
-Therefore, we need to edit the loop in the function and add these tags like this:
+10. Therefore, we need to edit the loop in the function and add these tags like this:
 
 ```python
 def interests_loop(): 
@@ -121,12 +121,12 @@ def interests_loop():
 ```
 Your loop within the function is ready to be imported into the `interests.py` file.
 
-Go back to your `interests.py` file and enter this line at the top:
+11. Go back to your `interests.py` file and enter this line at the top:
 
 ```python
 from interests_module import interests_loop
 ```
-Finally, go to the bottom of the file and put the interests loop under the the h1 tag:
+12. Finally, go to the bottom of the file and put the `interests_loop()` function call under the the `h1` tag:
 
 ```python
 ''' ...
@@ -173,3 +173,7 @@ When your have the program working as intended, you will notice that you now hav
 That is there because Python uses that file to run your code faster and without using as much of your system resources. 
 
 When finished, you should zip up your folder containing your files, including the pycache file, and submit it for Assignment 05 in Canvas.
+
+By the way, if you copy and paste the html into a file and open it in a browser, you would see the website with the copyright symbol:
+
+![website](img/website.png)
