@@ -126,7 +126,7 @@ Your loop within the function is ready to be imported into the `interests.py` fi
 ```python
 from interests_module import interests_loop
 ```
-12. Finally, go to the bottom of the file and put the `interests_loop()` function call under the the `h1` tag:
+12. Finally, go to the bottom of the file and put the `interests_loop()` function call under the the `h1` tag (The function will not run in the f-string. But you can make the one f-string into 2 f-strings above and below the function. The function will run fine and add the code where it needs to go.)
 
 ```python
 ''' ...
