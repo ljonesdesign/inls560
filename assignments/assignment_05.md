@@ -102,7 +102,7 @@ def interests_loop():
         print(interest)
 ```
 
-However, html requires that lists be contained in an ordered list `<ol>`, or an unordered list `<ul>` with `<li>` tags, like this:
+However, html requires that lists be contained in an [ordered list](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol) `<ol>`, or an [unordered list](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul) `<ul>` with `<li>` tags, like this:
 
 ```html
 <ul>
