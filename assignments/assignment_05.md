@@ -81,7 +81,7 @@ interests = ['swimming','hiking', 'reading', 'gaming']
     for interest in interests:
         print(interest)
 ```
-We are going to take this output and put it into the `interests.html` file.
+We are going to import this list into the `interests.html` file.
 
 To do that we need to make this into a function by adding this line to the top of the loop:
 
@@ -107,7 +107,7 @@ However, html requires that lists be contained in an ordered list `<ol>`, or an 
     <li>item2</li>
 </ul>
 ```
-Therefore we need to edit the loop in the function and add these tags like this:
+Therefore, we need to edit the loop in the function and add these tags like this:
 
 ```python
 def interests_loop(): 
@@ -140,7 +140,7 @@ print(f'''&copy; {name}
 ''') # terminate second f-string.
 ```
 
-Now you should be able to run your program an generate a web page from varibles and a function:
+Now you should be able to run your program an generate a web page from variables and a function:
 
 ```html
 <!DOCTYPE html>
@@ -163,3 +163,9 @@ Now you should be able to run your program an generate a web page from varibles 
 </body>
 </html>
 ```
+
+When your have the program with the file and the module working you will notice that you now have a pycache file in your folder. 
+
+![pycache](img/pycache.png)
+
+That is there because Python uses that file to run your code faster and without using as much of your system resources. You should zip up all of your files, including the pycache and submit if for Assignment 05 in Canvas.
