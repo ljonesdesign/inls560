@@ -172,12 +172,16 @@ Now you should be able to run your program an generate a web page from variables
 ```
 
 When your have the program working as intended, you will notice that you now have a new
-`__pycache__` folder containing the auto-generated  binary `.pyc` file.
+`__pycache__` folder containing an auto-generated  binary `.pyc` file.
+
+![pycache image](img/pycache.png)
 
 That is there because Python uses that file to run your code faster and without using as much of your system resources. Here is a [pycache overview by Kana Mikami](https://ecoagi.ai/topics/Python/pycache) if you want to learn more about pycache.
 
 13. When finished, you should zip up your folder containing your files, including the  file, and submit it for Assignment 05 in Canvas.
 
-By the way, if you copy and paste the html into a file and open it in a browser, you would see the website with the copyright symbol:
+If you copy and paste the html into a file and name it `interests.html` and open it in a browser, you will see the webpage with the `<h1>`, the `<ul>` and `<li>` interest items, and copyright line with the symbol:
 
 ![website](img/website.png)
+
+It's a lot of coding for just a little bit of output, but you now have the basics down to be able to build a much more sophisticated program.
