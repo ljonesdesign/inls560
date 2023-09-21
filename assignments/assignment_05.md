@@ -1,6 +1,6 @@
 # Assignment 05
 
-**concepts:**  *working with plain text, html generation, variables, f-strings, for loop, for loop nested between non-repeating strings, simple function definition, python module, import, and pycache.*
+**concepts:**  *working with plain text, html generation, DRY-concept via variables, f-strings, for loop, for loop nested between non-repeating strings, simple function definition, python module, import, and pycache*
 
 This is a full-fledged program that will challenge you to create something that is actually quite useful: A webpage generator. This primes us for moving on to more advanced programming concepts in the working with data module.
 
@@ -73,7 +73,7 @@ print(f'''
 </html>
 ''')
 ```
-7. Save program and test to make sure you don't have any errors so far.
+7. Save program and test to make sure you don't have any errors so far. You will notice that the variables are reused in a way that replication errors are reduced. This means that if the variables are set at the top, they will flow down into the text in a consistent manner. This it the **DRY concept: Don't Repeat Yourself**. There is duplication of the variable, but there is not duplication of the variable contents: If you converted the variable to user `input()` The user would only input the data once and everywhere that data was output, it would be the same.
 
 8. Now create another file named `interests_module.py`. In that folder you are going to create a loop for your interests. This is similar to what you did in assignment 2.
 
