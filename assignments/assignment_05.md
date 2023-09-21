@@ -2,6 +2,8 @@
 
 **concepts:** *html generation, variables, f-strings, for loop nested between strings, function, module, and import.*
 
+This is a full-fledged program that will challenge you to create something that is actually quite useful: A webpage generator. This primes us for moving on to more advanced programming concepts in the working with data module.
+
 
 1. Create a `lastname_first-initial_assignment_5` folder. Inside of that folder, create a file named ```interests.html```.
 
@@ -164,8 +166,10 @@ Now you should be able to run your program an generate a web page from variables
 </html>
 ```
 
-When your have the program with the file and the module working you will notice that you now have a pycache file in your folder. 
+When your have the program working as intended, you will notice that you now have a pycache file in your folder:
 
 ![pycache](img/pycache.png)
 
-That is there because Python uses that file to run your code faster and without using as much of your system resources. You should zip up all of your files, including the pycache and submit if for Assignment 05 in Canvas.
+That is there because Python uses that file to run your code faster and without using as much of your system resources. 
+
+When finished, you should zip up your folder containing your files, including the pycache file, and submit it for Assignment 05 in Canvas.
