@@ -73,7 +73,9 @@ print(f'''
 </html>
 ''')
 ```
-7. Save program and test to make sure you don't have any errors so far. You will notice that the variables are reused in a way that replication errors are reduced. This means that if the variables are set at the top, they will flow down into the text in a consistent manner. This it the **DRY concept: Don't Repeat Yourself**. There is duplication of the variable, but there is not duplication of the variable contents: If you converted the variable to user `input()` The user would only input the data once and everywhere that data was output, it would be the same.
+7. Save program and test to make sure you don't have any errors so far. You will notice that the variables are reused in a way that replication errors are reduced. This means that if the variables are set at the top, they will flow down into the text in a consistent manner. 
+
+>This it the **DRY concept: Don't Repeat Yourself**. There is duplication of the variable, but there is not duplication of the variable contents: If you converted the variable to user `input()` The user would only input the data once and everywhere that data was output, it would be the same. Web sites look very consistent across hundreds of pages. The same header and footer are used in every page. The best way to build a site like that is with the DRY principle. Developers create a web generator that will take the block of header code and footer code and use that exact code for every page. However, it is a bit complicated because some items in each block of code need to be different. This requires, loops, functions and variables as we are doing in this simplified assignment.
 
 8. Now create another file named `interests_module.py`. In that folder you are going to create a loop for your interests. This is similar to what you did in assignment 2.
 
