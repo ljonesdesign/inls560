@@ -14,7 +14,7 @@ Enter a letter for more info around the shop:
 ```
 The menu is short with only three options: a, b, and q for quit. Just having two choices makes it seem unnecessary to loop; however, you could create a menu with 10 to 20 items, like in a FAQ. In that case it makes sense for it to loop again and again to allow multiple interactions. The user could continue to choose various FAQs and read each one until they decided to quit by pressing `q`.
 
-After the print menu runs, the user will be prompted to enter a letter an a, b, or q. When the user enters a letter, an `if` and an `elif` statement will be necessary to print out the appropriate response to the letter choice. If the user types in a q, the program will exit without running the `if` or `elif` statement.
+After the print menu runs, the user will be prompted to enter a letter  `a`,`b`, or `q`. When the user enters a letter, an `if` and an `elif` statement will be necessary to print out the appropriate response to the letter choice. If the user types in a `q`, the program will exit without running the `if` or `elif` statement.
 
 After the `if` or `elif` runs, the program returns back to the beginning then encounters the `while` statement and runs the program again. It the user was not given the option to quit, it would never stop looping. It would be necessary to "kill" the python session by closing down the application or terminal.
 
@@ -43,11 +43,11 @@ The above spaces and grid are for instructional clarity. You will need to type i
 ```python
 while menu_option != 'q':
 ```
-So if the user enters anything, any key at all, except a `q`, it will just keep looping. It takes an actual `a` or `b` for the `if` or `elif` to print a specific response. After you write the program, try it. You can enter anything. It will just loop and loop. It will only pay attention to you if you enter a, b, or q.
+So if the user enters anything, any key at all, except a `q`, it will just keep looping. It takes an actual `a` or `b` for the `if` or `elif` to print a specific response. After you write the program, try it. You can enter anything. It will just loop and loop. It will only respond to you if you enter a, b, or q.
 
-4. On the next line program a print function `print()` to present the menu to the user.
+4. On the next line add a print function `print()` to present the menu to the user.
 
-Use the regular method (non f-string) of separating the menu items with commas. If you forget to add the final `sep="\n"` the text will print all on one line as shown below:
+Use the regular method (non f-string) of separating the menu items with commas. If you forget to add the final `sep="\n"`, the text will print all on one line as shown below:
 
 Code:
 ```python
@@ -60,7 +60,7 @@ Output:
 
  Therefore, add a comma after the quit string and add the the `sep="\n"` to make each choice print out on a new line as is shown at the top of the assignment instructions.
 
- After the user is sees the menu they also need see a prompt to enter the input. This can't be combined with the menu because the input needs to be assigned to the `menu_option` variable.  It is important to understand that the logic is tied to the `if` and the `elif`. The menu is just directions. The input message is just directions. **What matters is that the variable gets stored and the if and the elif are watching for it.**
+ After the user sees the menu they also need see a prompt to enter the input. This can't be combined with the menu because the input needs to be assigned to the `menu_option` variable.  It is important to understand that the logic is tied to the `if` and the `elif`. The menu is just directions. The input message is just directions. **What matters is that the variable gets stored and the if and the elif are watching for it.**
 
  Okay, now we are getting into the logic. This is where you construct your `if` and `elif`:
 
@@ -75,7 +75,7 @@ This will complete this first part of assignment 4.
 
 ## Part B
 
-**concepts:**  *practice with f- strings, nested `while` loop*
+**concepts:**  *practice with f-strings and a nested `while` loop*
 
 For part B you will simply duplicate your `while_menu.py` file and name the duplicated file `while_menu_nested.py` it should be in the same `lastname_first-initial_assignment_4` folder
 
