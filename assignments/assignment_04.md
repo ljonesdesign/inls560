@@ -14,9 +14,9 @@ Enter a letter for more info around the shop:
 ```
 The menu is short with only three options: a, b, and q for quit. Just having two choices makes it seem unnecessary to loop; however, you could create a menu with 10 to 20 items, like in a FAQ. In that case it makes sense for it to loop again and again to allow multiple interactions. The user could continue to choose various FAQs and read each one until they decided to quit by pressing `q`.
 
-After the print menu runs, the user will be prompted to enter a letter an a, b, or q. When the user enters a letter, then an `if` and an `elif` statement will be necessary to print out the appropriate response to the letter. If the user types in a q, the program will exit without running the `if` or `elif` statement.
+After the print menu runs, the user will be prompted to enter a letter an a, b, or q. When the user enters a letter, an `if` and an `elif` statement will be necessary to print out the appropriate response to the letter choice. If the user types in a q, the program will exit without running the `if` or `elif` statement.
 
-After the `if` or `elif` runs, the program returns back to the beginning then encounters the `while` and runs the program again. It the user was not given the option to quit, it would never stop looping. It would be necessary to "kill" the python session by closing down the application or terminal.
+After the `if` or `elif` runs, the program returns back to the beginning then encounters the `while` statement and runs the program again. It the user was not given the option to quit, it would never stop looping. It would be necessary to "kill" the python session by closing down the application or terminal.
 
 ### How to code this:
 
@@ -24,7 +24,7 @@ After the `if` or `elif` runs, the program returns back to the beginning then en
 
 1. Create a `lastname_first-initial_assignment_4` folder. Inside of that folder, create a file named ```while_menu.py```.
 
-2. On the first line of `while_menu` prime the `while` loop by typing:
+2. On the first line of `while_menu.py` file, prime the `while` loop by typing:
 
 ```python 
 menu_option = ''
@@ -47,7 +47,7 @@ So if the user enters anything, any key at all, except a `q`, it will just keep 
 
 4. On the next line program a print function `print()` to present the menu to the user.
 
-Use the regular method of separating the menu items with commas. If you forget to add the final `sep="\n"` the text will print all on one line as shown below:
+Use the regular method (non f-string) of separating the menu items with commas. If you forget to add the final `sep="\n"` the text will print all on one line as shown below:
 
 Code:
 ```python
@@ -60,7 +60,7 @@ Output:
 
  Therefore, add a comma after the quit string and add the the `sep="\n"` to make each choice print out on a new line as is shown at the top of the assignment instructions.
 
- After the user is sees the menu they also need see a prompt to enter the input. This can't be combined with the menu because the input need to be assigned to the  It is important to understand that the logic is tied to the if and the elif. The menu is just directions. The input message is just directions. **What matters is that the variable gets stored.**
+ After the user is sees the menu they also need see a prompt to enter the input. This can't be combined with the menu because the input needs to be assigned to the `menu_option` variable.  It is important to understand that the logic is tied to the `if` and the `elif`. The menu is just directions. The input message is just directions. **What matters is that the variable gets stored and the if and the elif are watching for it.**
 
  Okay, now we are getting into the logic. This is where you construct your `if` and `elif`:
 
@@ -89,7 +89,8 @@ b: deliver print jobs
 q: exit 
 ''')
 ```
-Then under your elif add another `variable = input('string (y or n): ')` and a nested if else. The if will accept the `y` and the else will accept the `n`.
+Then under your elif add another `variable = input('string (y or n): ')` and a nested if else. The if will accept the `y` and the else will accept the `n`. Remember to use some other example other than what we did in class.
+
 ```python
 
  if menu_option == 'a':
@@ -102,4 +103,4 @@ Then under your elif add another `variable = input('string (y or n): ')` and a n
             print("We won't ask you to drive!")
 ```
 
-When finished, zip up your folder and submit it in Canvas for Assignment 05.
+When finished, zip up your folder and submit it in Canvas for Assignment 04.
