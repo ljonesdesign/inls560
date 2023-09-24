@@ -82,7 +82,7 @@ For part B you will simply duplicate your `while_menu.py` file and name the dupl
 In this version do not use the `sep='\n'` for new lines. Use a f-string like this:
 
 ```python
-print('''
+print(f'''
 Shop information FAQS:
 a: cut and fold brochures
 b: deliver print jobs
