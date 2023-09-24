@@ -12,7 +12,7 @@ b: deliver print jobs
 q: quit
 Enter a letter for more info around the shop:
 ```
-The menu is short with only three options: a, b, and q for quit. Just having two choices makes it seem unnecessary to loop; however, you could create a menu with 10 to 20 items, like in a FAQ. It that case it makes sense for it to loop again and again. The user could continue to choose various FAQs and reach each one until they decided to quit by pressing `q`.
+The menu is short with only three options: a, b, and q for quit. Just having two choices makes it seem unnecessary to loop; however, you could create a menu with 10 to 20 items, like in a FAQ. In that case it makes sense for it to loop again and again to allow multiple interactions. The user could continue to choose various FAQs and read each one until they decided to quit by pressing `q`.
 
 After the print menu runs, the user will be prompted to enter a letter an a, b, or q. When the user enters a letter, then an `if` and an `elif` statement will be necessary to print out the appropriate response to the letter. If the user types in a q, the program will exit without running the `if` or `elif` statement.
 
